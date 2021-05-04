@@ -1,7 +1,11 @@
-# **Broadstreet COVID-19 Data Project**
+<a href="https://covid19dataproject.org/">
+    <img src="https://covid19dataproject.org/wp-content/uploads/2020/04/LOGO-Broadstreet-covid19.svg" alt="Broadstreet logo" title="BroadStreet" align="right" height="80" />
+</a>
 
+Broadstreet COVID-19 Data Project
+=================================
 
-## **Vaccine Data Tracking**
+## Vaccine Data Tracking
 
 The COVID-19 Data Project was created in March 2020 to satisfy the driving need for accessible data tracking of the spread of the coronavirus across the United States. Initially starting with the collection of cumulative case counts of COVID-19 and mortalities in the United States and its territories, at the county-level, the COVID-19 Data Project has since expanded to include analysis of policies relating to COVID-19, collection of cumulative case counts by race and ethnicity, and various intern-led research projects relating to the COVID-19 pandemic. That information can be found here: 
 * [COVID-19 Data Project Home] (https://covid19dataproject.org/)
@@ -18,7 +22,7 @@ As vaccines began to be approved for use, health departments were advised in a [
 The Vaccine Data Tracking Project is unique in that it is one of the only datasets collecting vaccine administration data at the county-level across the United States. This team was created in March of 2021 as states and health departments began administering vaccines and reporting information regarding administration. State dashboards were assessed to determine if information regarding vaccine administration was being reported and if county-level information was available. States were then categorized by the rate at which they update their data (i.e. daily, weekly, monthly, presence of historical data), and data collection began on 18 out of the identified 50 states, plus Puerto Rico and DC. This data allows for visualization of how vaccination administration is occurring throughout the United States. This data gives the public knowledge regarding the rate of vaccination across the United States. The data will be updated monthly and is available to be downloaded for further analysis as a .csv or .xlsx file.  
 
 
-### **Structure of the Dataset**
+### Structure of the Dataset
 
 The data is structured in wide form. This is how the first dose in the United States would be represented at the county level for April 1, 2021: 05000US06001, Alameda County California, CA, 1, 0, 0, 1. This is how the first dose would be represented at the state level: 04000US06, California(state), CA, 1, 0, 0, 1. Both the county and state data begin with the state/county, followed by the state identification number/county identification number. At both the state and the county level, the data recorded are first doses, followed by the number of second doses, the number of single doses, then the number of total doses. At the top of each state, there is a state totals row and then a row with the state name. The state totals row is taken directly from the state dashboard. The row with the state name is calculated by the sum of the county information for that respective state. 
 Variables used in our data include:
