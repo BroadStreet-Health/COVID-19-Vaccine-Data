@@ -35,3 +35,10 @@ Each state varies in how they define each variable and how they categorize singl
 
 
 Table 1. Variable Definitions by State
+<table>
+    <tr>
+        <td>State</td>
+        <td>First Dose</td>
+        <td>Second Dose</td>
+        <td>Single Dose</td>
+        <td>Total Doses</td>
