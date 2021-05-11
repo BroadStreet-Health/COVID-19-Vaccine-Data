@@ -21,6 +21,7 @@ Variables used in our data include:
 * Single Dose_: one dose of a single dose COVID-19 vaccine administered
 * Total Doses_: total number of doses administered
 Each state varies in how they define each variable and how they categorize single-dose vaccines. In order to account for those differences, we went through each dashboard and consolidated their definitions into one spreadsheet and attempted to standardize the definitions as much as possible. Dashboards will be reviewed on a monthly basis to reverify definitions and capture any changes that may not have been apparent when completing data entry.
+
 Table 1. Variable Definitions by State
 <table>
 	<tr>
