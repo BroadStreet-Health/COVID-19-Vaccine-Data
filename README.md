@@ -438,6 +438,6 @@ On April 23rd, 2021, New Jersey began reporting total Janssen doses administered
 ## Accessibility of Data: Formatting
 State websites report data related to the COVID-19 pandemic in various formats, which complicates any efforts to automate data entry. Formats used to report vaccine data include .csv, .pdf, GIS, Microsoft BI, Tableau, and plain text. 
 # Suggested Citation
-When using data images, downloaded data, or shared document formats, please attribute BroadStreet as well as the original source, when applicable. For examples and more information, review this article which answers the question ["How do I cite BroadStreet?"] (https://help.broadstreet.io/article/citations/)
+When using data images, downloaded data, or shared document formats, please attribute BroadStreet as well as the original source, when applicable. For examples and more information, review this article which answers the question ["How do I cite BroadStreet?"](https://help.broadstreet.io/article/citations/)
 # Contributors
-Tom Schmitt, PhD, Tracy Flood, MD PhD, [Kaiynat Amir, MPH] (https://www.linkedin.com/in/kaiynat-amir), [Rachael Church] (https://www.linkedin.com/in/rchurch20/), …. A full list of the Broadstreet Covid-19 Data Project volunteers can be found here: <https://covid19dataproject.org/team-2/>
+Tom Schmitt, PhD, Tracy Flood, MD PhD, [Kaiynat Amir, MPH](https://www.linkedin.com/in/kaiynat-amir), [Rachael Church](https://www.linkedin.com/in/rchurch20/), …. A full list of the Broadstreet Covid-19 Data Project volunteers can be found here: <https://covid19dataproject.org/team-2/>
