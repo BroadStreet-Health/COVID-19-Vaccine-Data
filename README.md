@@ -64,10 +64,10 @@ Table 1. Variable Definitions by State
 	</tr>
 	<tr>
 		<td>Arkansas<td>
-		<td><td>
+		<td>People with at least one dose<td>
  		<td>People fully vaccinated<td>
 		<td><td>
-		<td>Doses Given (county level totals are obtained from "people fully vaccinated" - 2nd dose)<td>
+		<td>Doses Given <td>
 	</tr>
 	<tr>
 		<td>California<td>
@@ -715,6 +715,9 @@ On May 5th, 2021, it was noted that Chicago County, Illinois was missing from th
 
 On June 8th, 2021, the state of Florida changed its reporting for daily to a single weekly report and no longer provided a separate report for detailed county information. This change in reporting resulted in only total dosage administration being reported at the county-level. From this day forward to present day, 1st, 2nd, and single dose information at the county-level is filled in with a dash to reflect the stop in reporting by the Florida Health Department.
 
+On June 25th, 2021, the state of Arkansas began displaying information for 1st and 2nd doses at the county-level. Previously only 2nd dose information was available, which was also recorded in the total dose column in the dataset. When the additional data became available, the reporting in the dataset was adjusted to reflect the new information. 
+ 
+On July 2nd, 20210 the Nebraska dashboard was no longer accessible. Their Health Department website had a message stating that “The State of Nebraska COVID-19 Dashboard is no longer available as of June 30, 2021. Any future updates regarding coronavirus will be provided through new releases and through other means.” On July 20th, 2021 two new resources for vaccine information for the state of Nebraska were found. The first, provided by the state of Nebraska Health Department in response to a query submitted about accessibility of data, only updates state-level information on a weekly basis. The second resource allowed for the addition of county-level total dose information to be recorded. Beginning July 23rd, 2021 these resources were implemented into data entry and dose information began to be recorded again. Data from June 30-July 22, 2021 was copied down until the new resources were available. 
 
 ## Accessibility of Data: Geographic Breakdown
 States differ in how they present their data and the geographic breakdowns they provide. Most states report vaccine information at both the state- and county-level, however a handful report only state-level data. In the case where only state-level data is available, the dataset is filled in with zeros for each county and only the state totals row is inputted with numbers. Some states provide geographic breakdowns that are not at the county-level, like Oklahoma, Nebraska, and Utah. Oklahoma only provides a breakdown of vaccine data by zip code. Nebraska only provides vaccine data by health district. Utah provides vaccine data as a mix of jurisdictions and counties. Due to the fact that all the data is not explicitly listed for a single county, this makes it challenging to capture the data accurately at the county-level. Currently in the dataset, unless a county is listed in their reporting, these states only have data inputted for the state totals and zeros inputted for the counties. As some of that data may be able to be translated into county-level information, that will change to reflect that information.   
