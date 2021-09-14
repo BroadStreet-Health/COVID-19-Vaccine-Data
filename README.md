@@ -71,10 +71,10 @@ Table 1. Variable Definitions by State
 	</tr>
 	<tr>
 		<td>California<td>
-		<td>Number of individuals who have received at least one dose of the Pfizer or Moderna vaccine. -3/22/2021<td>
- 		<td>"fully vaccinated:" Number of individuals who have received two doses of the Pfizer or Moderna vaccine, or one dose of the Janssen vaccine. - 3/22/2021<td>
-		<td><td>
-		<td>Number of COVID-19 vaccine doses administered and reported to the California Immunization Registry (CAIR2), the Healthy Futures Registry, and the San Diego Immunization Registry. - 3/22/2021<td>
+		<td>Cumulative at least one dose. Cumulative number of people with at least one dose.<td>
+ 		<td>Cumulative fully vaccinated. Cumulative number of fully vaccinated people up to that date.<td>
+		<td>Cumulative Johnson & Johnson doses administered up to that date.<td>
+		<td>Cumulative number of vaccines administered up to a particular administration date, includes both single and two-dose series.<td>
 	</tr>
 	<tr>
 		<td>Colorado<td>
@@ -85,10 +85,10 @@ Table 1. Variable Definitions by State
 	</tr>
 	<tr>
 		<td>Connecticut<td>
-		<td>A person who has received one dose of any vaccine is considered to have received at least one dose. -4/1/2021<td>
- 		<td>A person is considered fully vaccinated if they have received 2 doses of the Pfizer or Moderna vaccines or 1 dose of the Johnson & Johnson vaccine. The fully vaccinated are a subset of the number who have received at least one dose. -4/1/2021<td>
+		<td>At least one dose: one dose of any vaccine<td>
+ 		<td>Fully vaccinated: 2 doses of the Pfizer or Modern vaccines or 1 dose of the J&J. The fully vaccinated are a sunset of the number who have received at least one dose.<td>
 		<td><td>
-		<td>Total number of doses administered.<td>
+		<td>The number of “at least one dose” and “fully vaccinated” add up to more than the number of total doses because people who received the J&J vaccine fit into both categories.<td>
 	</tr>
 	<tr>
 		<td>Delaware<td>
@@ -122,7 +122,7 @@ Table 1. Variable Definitions by State
 		<td>Hawaii<td>
 		<td>Initiating - persons who have received a single dose of any vaccine 4/3/21<td>
  		<td>Completing - persons who have received two doses of the Pfizer or Moderna vaccine or a single dose of the Johnson & Johnson vaccine 4/3/21<td>
-		<td>Completing - persons who have received two doses of the Pfizer or Moderna vaccine or a single dose of the Johnson & Johnson vaccine 4/3/21<td>
+		<td><td>
 		<td>Total vaccines administered 4/3/21<td>
 	</tr>
 	<tr>
@@ -249,7 +249,7 @@ Table 1. Variable Definitions by State
 		<td>Total dose number 1: received 1 dose of a 2 dose series<td>
  		<td>to be fully vaccinated individuals need to receive 2 doses of Covid 19 vaccination.4-3-21<td>
 		<td><td>
-		<td><td>
+		<td>Total doses reported as administered, includes 1st and 2nd doses. <td>
 	</tr>
 	<tr>
 		<td>New Jersey<td>
@@ -268,10 +268,10 @@ Individuals who have received a single dose from a one-dose vaccine course, e.g.
 	</tr>
 	<tr>
 		<td>New York<td>
-		<td>have received one dose of the vaccine. 4-3-21<td>
- 		<td>who have received 2 doses of Pfizer /Moderna or one dose of J&J.4-3-21<td>
+		<td>People with at least one vaccine dose represents the total number of individuals who have received at least one dose of any COVID-19 vaccine.<td>
+ 		<td>People with completed vaccine series represents the total number of individuals who have completed the recommended series of a given COVID-19 vaccine product.<td>
 		<td><td>
-		<td>total number of vaccine shots, both first and second doses, administered to individuals..4-3-21.<td>
+		<td>Total doses administered represents the total number of vaccine shots, both 1st and 2nd doses, administered to individuals.<td>
 	</tr>
 	<tr>
 		<td>North Carolina<td>
@@ -320,8 +320,8 @@ Individuals who have received a single dose from a one-dose vaccine course, e.g.
 		<td>Puerto Rico<td>
 		<td>Personas con al mesos una dois (People with at least one dose) *includes individual count for J&J, Moderna, and Pfizer*<td>
  		<td>Personas con serie de vacunas completadas (People with completed vaccine series)<td>
-		<td><td>
-		<td>Dosis administradas (Administered doses) *only available at country (state) level*<td>
+		<td>Total number of J&J doses administered<td>
+		<td>Dosis administradas (Administered doses). Total vaccine doses administered - includes 1st and 2nd doses.<td>
 	</tr>
 	<tr>
 		<td>Rhode Island<td>
@@ -718,6 +718,8 @@ On June 8th, 2021, the state of Florida changed its reporting for daily to a sin
 On June 25th, 2021, the state of Arkansas began displaying information for 1st and 2nd doses at the county-level. Previously only 2nd dose information was available, which was also recorded in the total dose column in the dataset. When the additional data became available, the reporting in the dataset was adjusted to reflect the new information. 
  
 On July 2nd, 20210 the Nebraska dashboard was no longer accessible. Their Health Department website had a message stating that “The State of Nebraska COVID-19 Dashboard is no longer available as of June 30, 2021. Any future updates regarding coronavirus will be provided through new releases and through other means.” On July 20th, 2021 two new resources for vaccine information for the state of Nebraska were found. The first, provided by the state of Nebraska Health Department in response to a query submitted about accessibility of data, only updates state-level information on a weekly basis. The second resource allowed for the addition of county-level total dose information to be recorded. Beginning July 23rd, 2021 these resources were implemented into data entry and dose information began to be recorded again. Data from June 30-July 22, 2021 was copied down until the new resources were available. 
+
+On 8/13/2021 a change was made in the entry of “totals doses” administered for Puerto Rico. Prior to 8/13/2021, the totals, at the municipality level, were being determined by summing the three variables reported to obtain a number for total doses. Based on the way the dashboard data was displayed, it was found that “single doses” for Puerto Rico were being double-counted in both the first and second dose reporting levels. This was confirmed when Puerto Rico updated their dashboard and began displaying an “accumulated doses given” graph. The reporting changed to being “1st + 2nd - single” to get the appropriate number of total doses administered at both the state and municipality level.This shift in reporting resulted in a decline in total doses being seen from this day forward compared to those previously reported.  
 
 ## Accessibility of Data: Geographic Breakdown
 States differ in how they present their data and the geographic breakdowns they provide. Most states report vaccine information at both the state- and county-level, however a handful report only state-level data. In the case where only state-level data is available, the dataset is filled in with zeros for each county and only the state totals row is inputted with numbers. Some states provide geographic breakdowns that are not at the county-level, like Oklahoma, Nebraska, and Utah. Oklahoma only provides a breakdown of vaccine data by zip code. Nebraska only provides vaccine data by health district. Utah provides vaccine data as a mix of jurisdictions and counties. Due to the fact that all the data is not explicitly listed for a single county, this makes it challenging to capture the data accurately at the county-level. Currently in the dataset, unless a county is listed in their reporting, these states only have data inputted for the state totals and zeros inputted for the counties. As some of that data may be able to be translated into county-level information, that will change to reflect that information.   
