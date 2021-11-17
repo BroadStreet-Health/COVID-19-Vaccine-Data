@@ -11,7 +11,7 @@ The COVID-19 Data Project was created in March 2020 to satisfy the driving need 
 * [COVID-19 Data Project Home](https://covid19dataproject.org/)
 * [Daily Numbers](https://github.com/BroadStreet-Health/daily-numbers) GitHub 
 * [Policy](https://github.com/BroadStreet-Health/policy) GitHub 
-* [Health Equity] (https://github.com/BroadStreet-Health/Race-and-Ethnicity-Data) GitHub
+* [Health Equity](https://github.com/BroadStreet-Health/Race-and-Ethnicity-Data) GitHub
 * [Special Interest Projects Gallery](https://covid19dataproject.org/special-interest-projects/)
 
 The newest expansion of the COVID-19 Data Project is focused on vaccine administration at the state-and county-level across the United States, hereon referred to as Vaccine Data Tracking. 
